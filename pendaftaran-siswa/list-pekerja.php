@@ -15,7 +15,7 @@
     
 </style>
 <body>
-    <div class="container" style="max-width:1300px">
+    <div class="container" style="max-width:1350px">
     <a href="index.php" class="back-button">← Back</a>
     <header>
         <h3>pekerja yang sudah mendaftar</h3>
@@ -60,8 +60,8 @@
             echo "<td>".$pekerja['no_telp']."</td>";
 
             echo "<td>";
-            echo "<a href='form-edit.php?id=".$pekerja['id']."'>Edit</a> | ";
-            echo "<a href='hapus.php?id=".$pekerja['id']."'>Hapus</a>";
+            echo "<a href='form-edit-pekerja.php?id=".$pekerja['id']."'>Edit</a> | ";
+            echo "<a href='hapus-pekerja.php?id=".$pekerja['id']."'>Hapus</a>";
             echo "</td>";
 
             echo "</tr>";
